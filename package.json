@@ -1,0 +1,39 @@
+{
+  "name": "hoodie",
+  "title": "Hoodie",
+  "private" : true,
+  "description": "Hoodie library for the browser",
+  "version": "0.0.0",
+  "homepage": "http://hood.ie",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mroderick/hoodie-51.git"
+  },
+  "bugs": {
+    "url": "https://github.com/hoodiehq/hoodie.js/issues"
+  },
+  "licenses": [
+    {
+      "type": "Apache License 2.0",
+      "url": "https://github.com/hoodiehq/hoodie.js/blob/master/LICENSE"
+    }
+  ],
+  "keywords": [
+    "nobackend",
+    "frontend-only"
+  ],
+
+  "directories": {
+    "lib": "src",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "author": "Morgan Roderick",
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "buster": "~0.6.12",
+    "grunt-buster": "~0.1.2"
+  }
+}
