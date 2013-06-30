@@ -2,6 +2,8 @@
 
 This repository is a response to [hoodie.js issue 51](https://github.com/hoodiehq/hoodie.js/issues/51).
 
+The code is written to take advantage of ES5 features, and won't run in ES3 environments without polyfills.
+
 ## Running tests
 
 I couldn't wrangle the test runner in the orignal repository, so I configured Buster.JS so I could get on with actually writing the code.
