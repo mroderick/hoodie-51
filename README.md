@@ -12,7 +12,7 @@ The tests are ported from the Jasmine tests and extended to cover more of the be
 
 To run the tests from command line, you will need to have PhantomJS installed.
 
-```
+```bash
 $ npm test
 # or
 $ grunt test
@@ -22,11 +22,11 @@ $ grunt test
 
 You can also run the tests in a regular web page, for this you should install buster
 
-```
+```bash
 npm install -g buster
 ```
 
-```
+```bash
 buster static
 ```
 
@@ -34,11 +34,11 @@ And then load up the tests in your favourite browser using [http://localhost:828
 
 ### Browser runner
 
-```
+```bash
 npm install -g buster
 ```
 
-```
+```bash
 # start server
 $ buster server
 
