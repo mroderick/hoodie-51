@@ -40,7 +40,7 @@ var Events = (function(){
     Events.prototype.trigger = function trigger(eventName){
         var self = this,
             args = Array.prototype.slice.call(arguments, 1),
-            listeners = self._events[eventName]  || [];
+            listeners = self._events[eventName] || [];
 
         listeners.forEach(function(callback){
             callback.apply(self, args);
